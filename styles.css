@@ -732,6 +732,13 @@ p {
   transition: transform 0.25s ease, background-color 0.25s ease;
 }
 
+.service-card .service-emoji img {
+  width: 1.55rem;
+  height: 1.55rem;
+  object-fit: contain;
+  display: block;
+}
+
 .service-card:hover,
 .service-card:focus-within {
   transform: translateY(-6px);
